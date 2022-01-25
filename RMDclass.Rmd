@@ -1,0 +1,60 @@
+---
+title: "RMDclass"
+author: "dawnstaa"
+date: "1/20/2022"
+output: html_document
+---
+
+
+```{r echo=FALSE}
+About_me = "I love the oceans but not the color blue. Just saying, so don't ask me why."
+About_me
+ x = c(1,2,3)
+ y = c(4,5,6)
+ plot(x,y)
+```
+
+
+```{r eval=FALSE}
+z = x+y 
+print(z)
+```
+
+
+include doesn't show the code or the output
+```{r include=FALSE}
+a =x +y*2 #include doesn't show the code or the output
+```
+
+stringing multiple tags together
+```{r warning=FALSE, echo=FALSE}
+a=c(2,4)
+b=c(6,8,10)
+a+b
+```
+
+three asteriks create a line
+***
+
+- I love the oceans but not the color blue
+- just saying
+
+superscript
+
+1. 2^2
+
+
+error
+
+```{r,error=TRUE}
+we = 2+=4
+```
+
+inline code
+
+here `z` here is a variable name
+
+
+
+embedding images (starting with a slash means I am working from my root directory)
+![someImage](/Users/dawnstaa/Desktop/Physical Oceanography/Update presentation/neen.png){width=50%}
